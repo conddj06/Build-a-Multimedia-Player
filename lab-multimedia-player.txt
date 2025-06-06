@@ -1,0 +1,45 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+  <h1>Welcome to Media Experience Hub</h1>
+
+  <section>
+    <h2>Track of the Day: Sailing Away</h2>
+    <audio controls aria-label="Audio: Sailing Away by Unknow Artist">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+  </section>
+
+  <section>
+    <h2>Featured Video: Understanding the Map Method</h2>
+    <video controls width="600" aria-label="Video: Explanation of JavaScript map method">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4" type="video/mp4">
+      <track
+        src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4"
+        kind="subtitles"
+        srclang="en"
+        label="English">
+      Your browser does not support the video element.
+    </video>
+  </section>
+
+  <section>
+    <h2>Transcript</h2>
+    <p>This video walks you through how the JavaScript <code>map()</code> method works.  It shows how to use it to transform arrays without modifying the original data. For example, you can take an array of numbers and return a new array where each number is doubled. The method takes a callback function as an argument, and applies that function to each item in the array. By the end, you'll be confident using <code>map()</code> in your own code to write more efficient and readable JavaScript.
+    </p>
+  </section>
+</body>
+
+</html>
+
+** end of index.html **
+
